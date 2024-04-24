@@ -88,3 +88,50 @@ body {
     font-size: 19px;
     margin-bottom: 10px;
 }
+.content .reset-btn {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    padding: 15px 0;
+    font-size: 17px;
+    border-radius: 5px;
+    background: #e2dcc8;
+    transition: all 0.3s ease;
+}
+
+.content .reset-btn:hover {
+    background: #ac9f77;
+}
+
+@media screen and (max-width: 460px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .wrapper h1 {
+        font-size: 22px;
+        padding: 16px 20px;
+    }
+
+    .wrapper .content {
+        margin: 25px 20px 35px;
+    }
+
+    .inputs input {
+        height: 51px;
+        width: 50px;
+        margin: 3px;
+        font-size: 22px;
+    }
+
+    .details p {
+        font-size: 17px;
+    }
+
+    .content .reset-btn {
+        padding: 14px 0;
+        font-size: 16px;
+    }
+}
